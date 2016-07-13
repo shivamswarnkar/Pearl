@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+}
+
+
+body{
+	background-color: black;
+
+}
+
+.title{
+	text-align: center;
+	background-color: #f00fff;
+	font-style: italic;
+
+
+}
+
+.title .main{
+	font-size: 2em;
+	color:white;
+
+}
+
+.title .sub{
+	font-size: 1em;
+	color:black;
+	font-style: normal;
+
+}
+
+#content{
+	margin:0%;
+	background-color: #0000ff;
+	background-size: cover;
+	border:10px solid #f00fff;
+	width: 100%;
+	min-height: 90vh; 
+
+}
+
+#result{
+	margin:5%;
+	width: 90%;
+	background-color: white;
+	min-height: 75vh;
+	position: relative;
+}
+
+#play{
+	color:white;
+	background-color: #f00fff;
+	border: 10px solid #0000ff;
+	border-radius: 20px;
+	font-size: 1.5em;
+	position: fixed;
+	top: 50%;
+	left: 40%;
+	text-align: center;
+	padding: 10px;
+	font-style:italic;
+}
+
+#play:hover, #play:focus{
+	background-color: brown;
+	border: 10px solid black;
+}
+
+#ans{
+	width: 100%;
+	min-height: 75vh;
+	background-color:white;
+	visibility: hidden;
+
+	padding-left: 30%;
+	
+}
+
+#pic{
+	height: 50vh;
+	width: 50%;
+}
+
+#talk{
+	width: 50%;
+	margin-top: 5%;
+}
+
+#reply{
+	width: 50%;
+	text-align: justify;
+	overflow: auto;
+	background-color: white;
+	font-size: .7em;
+	height: 70px;
+	margin-bottom:5%;
+	padding: 5px;
+}
+footer{
+	text-align: right;
+	color:#deadea;
+	font-size: .5em;
+	margin: 0% 0%;
+}
+
+
+

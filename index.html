@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Princess Pearl</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<header id="title" class="title">
+	<h1 id="titleMain" class="title main">Diamond & Pearl</h1>
+	<h2 id="titleSub" class="title sub">----talk to royalty----</h2>
+	<nav>
+		
+	</nav>
+	
+</header>
+
+<div id="content">
+	<div id="result">
+		<button id="play" onclick="load()"><b>Let's Play</b></button>
+		<div id="ans">
+			<img src="princess_normal.jpg" id="pic">
+			<div id="reply"></div>
+			<input type="text" name="question" id="question" onkeydown="if(event.keyCode == 13) {talk();}">
+			<button id="ask" onclick="talk()">Ask</button>
+		</div>
+		
+	</div>
+	
+</div>
+
+<footer id="footer">
+	&copy; 2016 BlueMirrors
+	
+</footer>
+<script src="talk.js"></script>
+</body>
+</html>
